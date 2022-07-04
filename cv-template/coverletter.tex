@@ -18,10 +18,10 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[10pt, letterpaper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.4cm, top=0.6cm, right=1.4cm, bottom=1.4cm, footskip=0.4cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-darknight}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -41,7 +41,7 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -52,16 +52,16 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{./examples/profile}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+% \photo[circle,noedge,left]{./examples/profile}
+\name{Aidan}{Bruneel}
+\position{Systems Designer{\enskip\cdotp\enskip}Educator{\enskip\cdotp\enskip}Computer Programmer}
+\address{91 Ashfield St, Goderich, ON, Canada, N7A 3X9}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{+1 (519) 859-1466}
+\email{aidan@aidanbruneel.com}
+% \homepage{www.aidanbruneel.com}
+\github{aidanbruneel}
+\linkedin{aidanbruneel}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -73,8 +73,6 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{``Be the change that you want to see in the world."}
-
 
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
@@ -82,18 +80,18 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  {D2L Talent Acquisition Team}
+  {D2L Corporation\\151 Charles St W \#400\\Kitchener, ON, Canada\\N2G 1H6}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{RE: Software Test Developer \#1273753}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{Dear Hiring Manager,}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+% \letterenclosure[Attached]{Résumé}
 
 
 %-------------------------------------------------------------------------------
@@ -101,14 +99,14 @@
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[R]
+\makecvheader[C]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
-  {}
+  {Cover Letter}
+  {Aidan Bruneel}
+  {\today} %\thepage
 
 % Print the title with above letter informations
 \makelettertitle
@@ -117,16 +115,43 @@
 %	LETTER CONTENT
 %-------------------------------------------------------------------------------
 \begin{cvletter}
+I am interested and excited to see your listing for the Software Test Developer position at D2L.
+It is my hope that you will see through this application package that I have applicable experience in a variety of fields that I believe can be combined and developed further with your company.
+I also firmly believe that D2L could be the best place for me to grow as a learner and excel as a developer in software.
+
+% y do I have management experience in sales and experience as a teacher and a teacher of the Deaf, but also, as a dynamic Mechatronics Systems Engineer with a strong background and interest in coding and software engineering that delivers clean, high performance code, I am confident that I would be an asset to your team.
 
 \lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+Graduating from Mechatronic Systems Engineering at Western University, I have developed technical skills from across the disciplines of mechanical, electrical, and computer engineering.
+Having also gained 24 months of internship experience in the automotive industry, I discovered that I wanted to change my career path but was unsure of which path to take next.
+Luckily, I have been able to spend the year following my graduation exploring and developing important personal and career skills with newfound freedom.
 
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+As an educator, I have been able to relearn the process of learning itself from a new perspective and integrate pedagogical strategies into my instructional design.
+In particular, my role as a teacher of Science, Mathematics, and Technology at Robarts School for the Deaf presented the challenging and fascinating nuance of information accessibility using Bilingual-Bicultural instruction.
+
+As an operations manager, I was able to learn the art of excellent customer service, sales, and team leadership.
+I have developed a foundation of empathy, clear communication, and patience, upon which I have built strong customer relationships by offering honest insight to connect customers with products that suit their particular needs.
+
+
+% Integrating multiple domains and engineering systems to develop creative, optimized, high quality and secure solutions is my passion, and I love to learn and collaborate with others in my work. I have a solid background in Computer Science including data structures, algorithms, databases and distributed systems. I am an experienced author of C++ and Python, and many other computer languages, tools, applications, frameworks, and libraries. Continuing to grow my skills in software engineering while also leveraging the multidisciplinary aspect of my mechatronics engineering expertise drives my intended career. Also, I am looking to relocate to Kitchener. Providing software solutions to transform the way the world learns is ultimately how I want to contribute professionally to the world. In teaching for school boards and at Robarts School for the Deaf, I use software tools to create online environments for their learning. My engineering capstone project involved working with the school for the blind to develop a device to support orientation and mobility for their students.
+
+
+\lettersection{Why D2L?}
+It is my belief that D2L would be an enriching environment in which to combine my technical and non-technical skill sets to pursue my dream of leveraging software to ensure accessibility for all students.
+Having worked directly with schools such as W. Ross Macdonald School for the Blind in Brantford, ON, and Robarts School for the Deaf in London, ON, I seek to understand the impediments to learning and agency in students with sensory needs.
+I believe that my passion for designing for accessibility coincides closely with the goals of D2L, and so it would be my dream to work with your team to build accessibility into the future of learning.
+
+% Accessibility and education are areas of great interest to me. My passion for creating software solutions that support all learners and teachers is aligned with D2L’s search for software developers who help you to advance the goal of using technology to transform teaching and learning around the world. When teaching, I experienced first-hand the current integration of technology in educating and learning and my vision aligns with yours. Integration of both software and hardware is the future of learning platforms (i.e., virtual reality) and my mechatronics and software background directly supports such work. My experience gives me insight into mainstream teacher and student needs for the software that D2L creates, as of end users who are Deaf, blind, or Deafblind. I believe understanding these functionality and accessibility needs is critical to the ongoing evolution of the D2L learning platform whether for K-12, post secondary, or company-based use. I am passionate about this work and D2L is a dream job for me. In it, I can leverage my skills, experiences, and understanding to make a difference for current and future learning. I am submitting multiple applications for similar software engineering jobs at D2L because, ultimately, D2L is where I see myself best contributing to a better world. I want to work for a company that values and supports staff well-being, and invests in maintaining a learning culture. D2L is clearly such a company and we even share a love of dogs. I know we are a great fit.
 
 \lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+% In addition to my technical skills, my specialized understanding of the diverse end users and their accessibility needs, position me to design and test software solutions that are inclusive of all end users and that best support their learning and teaching experience. I am confident that my excellent work ethic, the systems thinking and the design approach I take to construct solutions, my unparalleled attention to detail, and the great pride I take in authoring and testing clean, reliable, efficient, and well-designed code will contribute to the success of D2L, making me an immediate asset to the team. 
 
+In every venture I undertake, I give my absolute effort to learn as much as possible to excel and help my team to succeed.
+Through a systems design approach and focused attention to detail, I have been able to lead engineering teams in software development to produce innovative and interdisciplinary solutions that are inclusive of all.
+I take pride in my work and I know that I will take full advantage of the opportunity to contribute to D2L's meaningful and forward-thinking mission to transform teaching and learning around the world.
+
+I would love to meet to discuss the value that I could add as a Software Test Developer at D2L and am available at your earliest convenience to discuss my qualifications in more detail.
+Thank you very much for your time and consideration.
 \end{cvletter}
 
 
